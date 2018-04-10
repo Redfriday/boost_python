@@ -10,5 +10,5 @@ Steps to run this example.
          $sudo ./bootstrap.sh --prefix=/usr/local
          $sudo ./b2 cxxflags=-fPIC cflags=-fPIC --c++11
       Note: You must specify -fPIC, because python needs the imported .so lib location independent.
-     (3) Go into root path of this repo; mkdir build; cd build && make.
-     (4) run python test.py.
+ 2. Go into root path of this repo; mkdir build; cd build && make.
+ 3. Run python test.py.
